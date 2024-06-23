@@ -9,11 +9,11 @@ public class Chrome {
 		boolean isBeta = false;
 		int releaseYear = 2008;
 		char shortcutKey = 'C';
-		System.out.println(version);
-		System.out.println(developer);
-		System.out.println(isBeta);
-		System.out.println(releaseYear);
-		System.out.println(shortcutKey);
+		System.out.println("Chrome version is " + version);
+		System.out.println(developer + "is developed by google.");
+		System.out.println("Chrome browser is a beta version" +isBeta);
+		System.out.println("Goggle chrome is publised in the year of "+ releaseYear);
+		System.out.println("Short key to open the chrome browser ,press "+ shortcutKey);
 
 	}
 
